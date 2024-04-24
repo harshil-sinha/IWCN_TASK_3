@@ -5,6 +5,11 @@ body {
     box-sizing: border-box;
 }
 #result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -12,6 +17,7 @@ body {
     background-color: #f9f9f9;
 }
 h2 {
+    text-align: center;
     margin-top: 0;
 }
 ul {
@@ -24,4 +30,7 @@ li {
 li span {
     font-weight: bold;
     margin-right: 5px;
+}
+p{
+    text-align: center;
 }
